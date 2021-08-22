@@ -1,0 +1,83 @@
+
+    /* Index Seccion 1 */
+
+    .carousel-item  {
+        img {
+            object-fit: cover;
+            height: 93vh;
+        }
+    }
+
+
+    .presentacion-kumo {
+        @extend %margin-auto;
+        border: 3px solid $clr-negro;
+        width: 250px;
+        height: 100px;
+        text-align: $align;
+        padding: 3px;
+        margin-top: 20px;
+
+        h1 {
+            font-size: $font-texto-index;
+        }
+    }
+
+    /* Fin Seccion 1 Index */
+
+    /* Section 2 Index */
+
+    .card {
+        width: 250px;
+        height: 350px;
+        padding-top: 10px;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        box-shadow: 0 0 20px 0 $clr-grey;
+        margin: 60px auto;
+        
+        img {
+            width: 230px;
+            height: 250px;
+            @extend %margin-auto;
+        }
+
+        &:hover{
+            
+        @include transform-productos;
+        
+    }
+
+    }
+    
+
+    .contenedor-productos-recomendados {
+        color: $clr-negro;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        
+    }
+
+
+    .texto-productos-recomendados {
+        text-align: $align;
+
+        /*Operacion*/
+        font-size: $font-texto-index -0.5rem;
+        
+        padding: 20px 0;
+
+        a {
+            color: $clr-negro;
+            text-decoration: none;
+            display: block;
+        }
+
+        &:hover {
+            text-decoration: underline $clr-negro;
+        }
+    }
+
+    /* Final Seccion 2 Index */

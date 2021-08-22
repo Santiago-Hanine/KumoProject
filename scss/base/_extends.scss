@@ -1,0 +1,9 @@
+%flex-center {
+    display: flex;
+    align-items: $align;
+    justify-content: $align;
+}
+
+%margin-auto {
+    margin: 0 auto;
+}

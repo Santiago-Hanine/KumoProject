@@ -1,0 +1,21 @@
+
+    /* Seccion Productos */
+
+    .contenedor-productos {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .texto-productos {
+        margin-top: 5%;
+        margin-bottom: 1%;
+        margin-left: 5%;
+    }
+
+    .productos-kumo {
+        width: 300px;
+        margin: 35px 0;
+    }

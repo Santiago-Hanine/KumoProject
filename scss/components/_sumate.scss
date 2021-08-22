@@ -1,0 +1,27 @@
+/* Seccion Sumate */
+.parrafo-sumate {
+    font-size: 18px;
+    width: 60%;
+    border: solid $clr-negro 4px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 500px;
+    padding: 5px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.h1-sumate {
+    margin: 2% 0% 3% 10%;
+}
+
+.formulario {
+    width: 40%;
+    @extend %flex-center;
+    margin: 30px auto;
+    font-size:  nth($font-size, 3);
+    padding: 15px;
+    border: 2px solid $clr-negro;
+}

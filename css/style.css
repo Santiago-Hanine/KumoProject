@@ -1,0 +1,476 @@
+/* Elimino caracteristicas default de HTML  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+/* Fuente de Google: Roboto */
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img, .presentacion-kumo {
+  margin: 0 auto;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+}
+header img {
+  height: 50px;
+}
+
+.item-header {
+  font-size: 18px;
+  color: #000 !important;
+  animation: opacidad 2s;
+}
+@keyframes opacidad {
+  0% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.item-header:hover {
+  text-decoration: 3px underline #000;
+}
+
+/* Clase de la seccion de pagina que estes */
+.activo {
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  border-top: 3px solid #000;
+}
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+footer a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: grey;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 100;
+}
+
+.display-footer a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+.display-footer a:hover {
+  color: grey;
+}
+
+.contenedor-footer {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+/* Final Footer */
+/* Index Seccion 1 */
+.carousel-item img {
+  object-fit: cover;
+  height: 93vh;
+}
+
+.presentacion-kumo {
+  border: 3px solid #000;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  padding: 3px;
+  margin-top: 20px;
+}
+.presentacion-kumo h1 {
+  font-size: 2.5rem;
+}
+
+/* Fin Seccion 1 Index */
+/* Section 2 Index */
+.card {
+  width: 250px;
+  height: 350px;
+  padding-top: 10px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  box-shadow: 0 0 20px 0 #6b6767;
+  margin: 60px auto;
+}
+.card img {
+  width: 230px;
+  height: 250px;
+}
+.card:hover {
+  transform: translateY(-1rem);
+  -webkit-transform: translateY(-1rem);
+  -moz-transform: translateY(-1rem);
+  -o-transform: translateY(-1rem);
+}
+
+.contenedor-productos-recomendados {
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.texto-productos-recomendados {
+  text-align: center;
+  /*Operacion*/
+  font-size: 2.5rem -0.5rem;
+  padding: 20px 0;
+}
+.texto-productos-recomendados a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+.texto-productos-recomendados:hover {
+  text-decoration: underline #000;
+}
+
+/* Final Seccion 2 Index */
+/* Seccion Productos */
+.contenedor-productos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.texto-productos {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+
+.productos-kumo {
+  width: 300px;
+  margin: 35px 0;
+}
+
+/* Seccion Contactanos */
+/* Contenedor de mi Info */
+.contenedor-contacto {
+  background-color: silver;
+  height: 10%;
+  width: 300px;
+  float: left;
+  padding: 10px;
+  margin: 3% 2% 5% 5%;
+  border: solid #000 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Mapa */
+iframe {
+  height: 70vh;
+  width: 50%;
+  margin: 50px 0 100px 50px;
+}
+
+/* Fin Seccion Contacto */
+/* Seccion Nosotros */
+.introduccion-contenedor {
+  padding: 40px;
+  font-size: 20px;
+  margin-bottom: 100px;
+  border: 5px solid #000;
+  border-radius: 10px;
+  height: 600px;
+  margin: 4%;
+}
+.introduccion-contenedor .h1-nosotros {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.introduccion-contenedor p {
+  width: 40%;
+  margin: 40px 30px 40px 40px;
+  float: left;
+  word-spacing: 5px;
+}
+
+.introduccion-sin-contenedor {
+  padding: 40px;
+  font-size: 20px;
+  border: 5px solid #000;
+  border-radius: 10px;
+  height: 600px;
+  margin: 4%;
+}
+.introduccion-sin-contenedor .h2-nosotros {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.introduccion-sin-contenedor p {
+  width: 40%;
+  margin: 40px 30px 40px 40px;
+  float: left;
+  word-spacing: 5px;
+}
+
+.lista-valores {
+  margin: 70px 40px;
+}
+.lista-valores li {
+  font-size: 30px;
+}
+
+.imagen-presentacion {
+  margin-top: 70px;
+  margin-right: 40px;
+  width: 40%;
+  height: 80%;
+  float: right;
+}
+
+/* Seccion Sumate */
+.parrafo-sumate {
+  font-size: 18px;
+  width: 60%;
+  border: solid #000 4px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-weight: 500px;
+  padding: 5px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.h1-sumate {
+  margin: 2% 0% 3% 10%;
+}
+
+.formulario {
+  width: 40%;
+  margin: 30px auto;
+  font-size: 20px;
+  padding: 15px;
+  border: 2px solid #000;
+}
+
+/*Pagina 404*/
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+  margin: 0 auto;
+}
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #000;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.link_404:hover {
+  text-decoration: underline;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+/* MEDIA QUERYS */
+/* Mobile */
+@media only screen and (max-width: 426px) {
+  .contenedor-contacto {
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+    height: 400px;
+  }
+
+  iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contenedor-productos-recomendados {
+    grid-template-columns: 100%;
+  }
+
+  .introduccion-contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    height: 650px;
+  }
+  .introduccion-contenedor p {
+    margin: 20px 0;
+    word-spacing: 5px;
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+  }
+
+  .imagen-presentacion {
+    height: 200px;
+    width: 250px;
+  }
+
+  .parrafo-sumate {
+    font-size: 15px;
+    width: 98%;
+    margin: 2px;
+  }
+
+  .formulario {
+    width: 95%;
+    margin: 10px;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 426px) and (max-width: 500px) {
+  .contenedor-contacto {
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contenedor-productos-recomendados {
+    grid-template-columns: auto;
+  }
+
+  .introduccion-contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    height: 650px;
+  }
+  .introduccion-contenedor p {
+    margin: 20px 0;
+    word-spacing: 5px;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .imagen-presentacion {
+    margin: 0;
+    height: 200px;
+    width: 250px;
+  }
+
+  .parrafo-sumate {
+    font-size: 15px;
+    width: 98%;
+    margin: 2px;
+  }
+
+  .formulario {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .contenedor-contacto {
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contenedor-productos-recomendados {
+    grid-template-columns: auto auto;
+  }
+
+  .introduccion-contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    height: 650px;
+  }
+  .introduccion-contenedor p {
+    margin: 20px 0;
+    word-spacing: 5px;
+    width: 380px;
+  }
+
+  .imagen-presentacion {
+    margin: 0;
+    height: 300px;
+    width: 380px;
+  }
+
+  .parrafo-sumate {
+    font-size: 15px;
+    width: 98%;
+    margin: 2px;
+  }
+
+  .formulario {
+    width: 80%;
+  }
+}
+/* Desktop */
+
+/*# sourceMappingURL=style.css.map */
