@@ -6,6 +6,10 @@
   font-family: "Roboto";
 }
 
+body {
+  margin: 2.5px;
+}
+
 /* Fuente de Google: Roboto */
 .formulario {
   display: flex;
