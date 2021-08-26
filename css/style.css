@@ -213,26 +213,11 @@ iframe {
   margin-top: 2%;
   margin-bottom: 3%;
 }
-.introduccion-contenedor p {
-  width: 40%;
-  margin: 40px 30px 40px 40px;
-  float: left;
-  word-spacing: 5px;
-}
-
-.introduccion-sin-contenedor {
-  padding: 40px;
-  font-size: 20px;
-  border: 5px solid #000;
-  border-radius: 10px;
-  height: 600px;
-  margin: 4%;
-}
-.introduccion-sin-contenedor .h2-nosotros {
+.introduccion-contenedor .h2-nosotros {
   margin-top: 2%;
   margin-bottom: 3%;
 }
-.introduccion-sin-contenedor p {
+.introduccion-contenedor p {
   width: 40%;
   margin: 40px 30px 40px 40px;
   float: left;
