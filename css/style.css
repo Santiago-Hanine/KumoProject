@@ -355,6 +355,7 @@ iframe {
   }
 
   .imagen-presentacion {
+    margin: 0 auto;
     height: 200px;
     width: 250px;
   }
@@ -368,6 +369,10 @@ iframe {
   .formulario {
     width: 95%;
     margin: 10px;
+  }
+
+  .lista-valores li {
+    font-size: 20px;
   }
 }
 /* Tablet */
@@ -407,7 +412,7 @@ iframe {
   }
 
   .imagen-presentacion {
-    margin: 0;
+    margin: 0 auto;
     height: 200px;
     width: 250px;
   }
@@ -420,6 +425,10 @@ iframe {
 
   .formulario {
     width: 80%;
+  }
+
+  .lista-valores li {
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 768px) {
@@ -456,7 +465,7 @@ iframe {
   }
 
   .imagen-presentacion {
-    margin: 0;
+    margin: 0 auto;
     height: 300px;
     width: 380px;
   }
@@ -469,6 +478,13 @@ iframe {
 
   .formulario {
     width: 80%;
+  }
+
+  .lista-valores {
+    margin: 15px 0;
+  }
+  .lista-valores li {
+    font-size: 25px;
   }
 }
 /* Desktop */
