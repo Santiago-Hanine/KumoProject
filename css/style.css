@@ -9,15 +9,21 @@
 body {
   margin: 2.5px;
 }
+
 body::-webkit-scrollbar {
   width: 12px;
 }
+
 body::-webkit-scrollbar-track {
   background: #fff;
+  /* color of the tracking area */
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: #000;
+  /* color of the scroll thumb */
   border-radius: 20px;
+  /* roundness of the scroll thumb */
 }
 
 /* Fuente de Google: Roboto */
