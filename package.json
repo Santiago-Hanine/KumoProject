@@ -1,11 +1,11 @@
 {
   "name": "desafio-11",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda de ropa de vestir estilo urbana, Remeras , camisetas y buzos hechas de algodón. Envios por todo el país de manera gratuita sin costos adicionales.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Santiago Hanine",
   "license": "ISC"
 }
