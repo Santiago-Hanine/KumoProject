@@ -88,35 +88,26 @@
 
     <section class="formulario">
         
-        <div>
-        <form action="" method="">
-            <p>
-                <label for="nombre">
-                    Nombre
-                </label>
-                <input type="text" name="nombre" placeholder="Nombre">
-            </p>
-            <p>
-                <label for="apellido">
-                    Apellido
-                </label>
-                <input type="text" name="apellido" placeholder="Apellido">
-            </p>
-            <p>
-                <label for="cont">Contraseña</label>
-                <input type="password" name="contraseña" placeholder="Contraseña">
-            </p>
-    
-            <p>
-                <label for="comentarios">Comentarios/quejas/sugerencias</label> <br>
-                <textarea name="comentarios"></textarea>
-            </p>
-
-            <input type="submit" value="Enviar">
-
-            <input type="reset" value="Borrar">
-        </form>
+      <form>
+        <div class="mb-3">
+          <label  class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" name="nombre">
         </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Dirección E-Mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mail">
+
+          <div id="emailHelp" class="form-text">Nunca vamos a compartir tus e-mail con alguien.</div>
+        </div>
+
+        <div class="mb-3">
+          <label  class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" name="asunto">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
     </section>
 
@@ -127,7 +118,7 @@
 
         <nav>
             <ul class="contenedor-footer">
-                <li class="display-footer"><a href="index.html">KUMO</a></li>
+                <li class="display-footer"><a href="">KUMO</a></li>
 
                 <li class="display-footer"><a href="https://www.facebook.com">Facebook</a></li>
 
